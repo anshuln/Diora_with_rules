@@ -1,6 +1,6 @@
-## DIORA_with_rules
+## Augmenting Unsupevised Constituency Parsing with Rules
 
-Code for the paper `Augmenting Unsupevised Constituency Parsing with Rules` to appear in the Findings of ACL 2021.
+Code release for our the paper **Augmenting Unsupevised Constituency Parsing with Rules** to appear in the Findings of ACL 2021.
 
 This repo forks the [official repo for DIORA](https://github.com/iesl/diora/) and builds on it. Follow the steps in the repo to setup dependencies.
 
