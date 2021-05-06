@@ -14,7 +14,8 @@ Our rules can be found in the directory `rulesets/`. The folder `rulesets/data_p
 
 ## Training
 Follow instructions in the DIORA repo for preliminary instructions for training the model. Run the command
-`python3 diora/scripts/train.py \`
+```
+python3 diora/scripts/train.py \
           --arch mlp-shared \
           --batch_size 32 \
           --data_type nli\
@@ -32,5 +33,6 @@ Follow instructions in the DIORA repo for preliminary instructions for training 
           --cuda\
           --use_reconstruction\
           --rule_based\
-          --load_model_path ./checkpoints/diora-checkpoints/mlp-softmax-shared/model.pt`
-
+          --load_model_path ./checkpoints/diora-checkpoints/mlp-softmax-shared/model.pt
+```
+to start a training job
