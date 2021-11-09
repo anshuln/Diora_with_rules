@@ -1,11 +1,11 @@
 ## Augmenting Unsupevised Constituency Parsing with Rules
 
-Code release for our the paper
-> [**Augmenting Unsupevised Constituency Parsing with Rules**](https://arxiv.org/abs/2105.10193)
+Code release for the paper
+> [**Augmenting Unsupevised Constituency Parsing with Rules**](https://aclanthology.org/2021.findings-acl.436/)
 > 
 > Atul Sahay*, Anshul Nasery*, Ayush Maheshwari, Ganesh Ramakrishnan, Rishabh Iyer
 > 
-to appear in the Findings of ACL 2021.
+appearing in the Findings of ACL 2021.
 
 This repo forks the [official repo for DIORA](https://github.com/iesl/diora/) and builds on it. Follow the steps in the repo to setup dependencies.
 
@@ -45,12 +45,20 @@ to start a training job
 ## Citation
 If you find the code useful for your research, consider citing us - 
 ```
-@misc{sahay2021rule,
-      title={Rule Augmented Unsupervised Constituency Parsing}, 
-      author={Atul Sahay and Anshul Nasery and Ayush Maheshwari and Ganesh Ramakrishnan and Rishabh Iyer},
-      year={2021},
-      eprint={2105.10193},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{sahay-etal-2021-rule,
+    title = "Rule Augmented Unsupervised Constituency Parsing",
+    author = "Sahay, Atul  and
+      Nasery, Anshul  and
+      Maheshwari, Ayush  and
+      Ramakrishnan, Ganesh  and
+      Iyer, Rishabh",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-acl.436",
+    doi = "10.18653/v1/2021.findings-acl.436",
+    pages = "4923--4932",
 }
 ```
